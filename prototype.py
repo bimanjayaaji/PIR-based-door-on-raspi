@@ -32,13 +32,6 @@ def main():
 	if inp == 1:
 		buzzing(0,0.1)
 		sleep(2)
-	# inp = read_pir(pir_pin[0])
-	# print(inp)
-	# if inp == 1:
-		# start = time() 
-		# while (read_pir(pir_pin[0]) != 0):print(read_pir(pir_pin[0]))
-		# print(time()-start)
-		# sleep(3)
 
 if __name__ == "__main__":
 	pin_setup()
